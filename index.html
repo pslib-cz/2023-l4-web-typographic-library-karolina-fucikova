@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Fučíková - Typografická knihovna</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__name">Let's-code.css</p>
+      <menu class="header__menu">
+        <a href="#headings"><li>Headings</li></a>
+        <a href="#text"><li>Text</li></a>
+        <a href="#lists"><li>Lists</li></a>
+        <a href="#gallery"><li>Gallery</li></a>
+        <a href="#buttons"><li>Buttons</li></a>
+        <a href="#table"><li>Table</li></a>
+        <a href="#quotes"><li>Quotes</li></a>
+      </menu>
+    </header>
+    <main class="main">
+      <div class="heading-of-library">
+        <h1>Typography Library</h1>
+      </div>
+      <div class="headings">
+        <h2 id="headings">Headings</h2>
+        <p>
+          Headings are mainly used to break up the text, but they also have a
+          significant impact on SEO. It is important to follow the correct
+          heading hierarchy, because it not only makes it easier for people to
+          read, but also helps search engines understand the structure of the
+          content properly. Properly optimized headlines can improve a website's
+          search engine visibility and increase website traffic.
+        </p>
+        <p class="replacing-h1">This is #h1</p>
+        <h2>This is #h2</h2>
+        <h3>This is #h3</h3>
+        <h4>This is #h4</h4>
+        <h5>This is #h5</h5>
+        <h6>This is #h6</h6>
+      </div>
+      <div class="text">
+        <h2 id="text">Types of text</h2>
+        <p>Use &lt;p&gt; tag for a standart paragraph.</p>
+        <h3>Normal text</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, eveniet
+          illum itaque explicabo sed adipisci alias tempore labore tenetur quis
+          doloremque, possimus sequi dolorum perferendis rerum molestiae!
+          Dolorum, qui incidunt.
+        </p>
+        <h3>Styled text</h3>
+        <p>
+          In the text you can use tag
+          <em>&lt;em&gt;</em> for italic text (also can be used tag
+          <i>&lt;i&gt;</i>, but the tag defines a part of text in an alternate
+          voice or mood. It is mainly just for
+          <i>term or a phrase from another language!</i>). Tags
+          <strong>&lt;strong&gt;</strong> or <b>&lt;b&gt;</b> are used for
+          <b>bold</b> text and <mark>&lt;mark&gt;</mark> for
+          <mark>highlighted</mark> text. Tag &lt;u&gt; is for
+          <u>underlined</u> text and tag &lt;small&gt; is for
+          <small>smaller</small> text. Here is <s>striked text</s> by tag
+          &lt;s&gt;. For <sub>subscript</sub> and <sup>superscript</sup> text
+          are used &lt;sub&gt; and &lt;sup&gt; tags. Tag &lt;abbr&gt; is for
+          abbreviation – example:
+          <abbr title=" National Aeronautics and Space Administration"
+            >NASA</abbr
+          >. <span class="orange">Text can be colored</span> using a class
+          within the &lt;span&gt; tag.
+        </p>
+      </div>
+      <div class="lists">
+        <h2 id="lists">Lists</h2>
+        <h3>Unordered list</h3>
+        <p>
+          The &lt;ul&gt; tag is used to create an unordered list. Combine it
+          with the &lt;li&gt; tag to define the list items within the unordered
+          list.
+        </p>
+        <ul>
+          <li>Red</li>
+          <li>Yellow</li>
+          <li>
+            Orange
+            <ul>
+              <li>Dark orange</li>
+              <li>Light orange</li>
+            </ul>
+          </li>
+          <li>Pink</li>
+        </ul>
+        <h3>Ordered list</h3>
+        <p>
+          The &lt;ol&gt; tag is used to create an ordered list. Combine it with
+          the &lt;li&gt; tag to define the list items within the ordered list.
+        </p>
+        <ol>
+          <li>Red</li>
+          <li>Yellow</li>
+          <li>
+            Orange
+            <ol>
+              <li>Dark orange</li>
+              <li>Light orange</li>
+            </ol>
+          </li>
+          <li>Pink</li>
+        </ol>
+      </div>
+      <div class="gallery">
+        <h2 id="gallery">Gallery</h2>
+        <h3>Flexbox gallery</h3>
+        <div class="flexbox__img">
+          <figure>
+            <img src="./img/turquoise1.jpg" alt="Turquoise" />
+          </figure>
+          <figure>
+            <img src="./img/turquoise2.jpg" alt="Turquoise" />
+          </figure>
+          <figure>
+            <img src="./img/turquoise3.jpg" alt="Turquoise" />
+          </figure>
+          <figure>
+            <img src="./img/turquoise4.jpg" alt="Turquoise" />
+          </figure>
+        </div>
+        <h3>Grid gallery</h3>
+        <div class="grid__img">
+          <figure>
+            <img src="./img/turquoise1.jpg" alt="Turquoise" />
+          </figure>
+          <figure>
+            <img src="./img/turquoise2.jpg" alt="Turquoise" />
+          </figure>
+          <figure>
+            <img src="./img/turquoise3.jpg" alt="Turquoise" />
+          </figure>
+          <figure>
+            <img src="./img/turquoise4.jpg" alt="Turquoise" />
+          </figure>
+        </div>
+      </div>
+      <div class="buttons">
+        <h2 id="buttons">Buttons</h2>
+        <p>Button is created by tag &lt;button&gt;.</p>
+        <button class="button1">Button 1</button>
+        <button class="button2">Button 2</button>
+      </div>
+      <div class="table">
+        <h2 id="table">Table</h2>
+        <table>
+          <thead>
+            <caption>
+              Table example
+            </caption>
+            <tr class="tr1">
+              <th>Color</th>
+              <td>Example</td>
+              <td>Mix</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Purple</th>
+              <td class="purple"></td>
+              <td>blue & red</td>
+            </tr>
+            <tr>
+              <th>Green</th>
+              <td class="green"></td>
+              <td>blue & yellow</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="quotes">
+        <h2 id="quotes">Quotes</h2>
+      </div>
+    </main>
+    <footer>
+      <p>Created by Karolína Fučíková</p>
+      <p>@2023</p>
+    </footer>
+  </body>
+</html>
