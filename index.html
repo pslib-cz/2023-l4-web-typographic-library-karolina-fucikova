@@ -7,25 +7,27 @@
     <link rel="stylesheet" href="./css/main.css" />
     <title>Fučíková - Typografická knihovna</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
-      <p class="header__name">Let's-code.css</p>
-      <menu class="header__menu">
-        <a href="#headings"><li>Headings</li></a>
-        <a href="#text"><li>Text</li></a>
-        <a href="#lists"><li>Lists</li></a>
-        <a href="#gallery"><li>Gallery</li></a>
-        <a href="#buttons"><li>Buttons</li></a>
-        <a href="#table"><li>Table</li></a>
-        <a href="#quotes"><li>Quotes</li></a>
-      </menu>
+      <div class="header__container">
+          <p class="header__name">Code-fishing.css</p>
+          <menu class="header__menu">
+            <a href="#headings"><li>Headings</li></a>
+            <a href="#text"><li>Text</li></a>
+            <a href="#lists"><li>Lists</li></a>
+            <a href="#gallery"><li>Gallery</li></a>
+            <a href="#buttons"><li>Buttons</li></a>
+            <a href="#table"><li>Table</li></a>
+            <a href="#quotes"><li>Quotes</li></a>
+          </menu>
+        </div>
     </header>
     <main class="main">
       <div class="heading-of-library">
-        <h1>Typography Library</h1>
+        <h1 class="h1">Typography Library</h1>
       </div>
-      <div class="headings">
-        <h2 id="headings">Headings</h2>
+      <section class="headings">
+        <h2 id="headings" class="heading-of-capitol">Headings</h2>
         <p>
           Headings are mainly used to break up the text, but they also have a
           significant impact on SEO. It is important to follow the correct
@@ -40,9 +42,9 @@
         <h4>This is #h4</h4>
         <h5>This is #h5</h5>
         <h6>This is #h6</h6>
-      </div>
-      <div class="text">
-        <h2 id="text">Types of text</h2>
+      </section>
+      <section class="text">
+        <h2 id="text" class="heading-of-capitol">Types of text</h2>
         <p>Use &lt;p&gt; tag for a standart paragraph.</p>
         <h3>Normal text</h3>
         <p>
@@ -68,50 +70,56 @@
           abbreviation – example:
           <abbr title=" National Aeronautics and Space Administration"
             >NASA</abbr
-          >. <span class="orange">Text can be colored</span> using a class
+          >. <span class="turquoise">Text can be colored</span> using a class
           within the &lt;span&gt; tag.
         </p>
-      </div>
-      <div class="lists">
-        <h2 id="lists">Lists</h2>
-        <h3>Unordered list</h3>
-        <p>
-          The &lt;ul&gt; tag is used to create an unordered list. Combine it
-          with the &lt;li&gt; tag to define the list items within the unordered
-          list.
-        </p>
-        <ul>
-          <li>Red</li>
-          <li>Yellow</li>
-          <li>
-            Orange
+      </section>
+      <section class="lists">
+        <h2 id="lists" class="heading-of-capitol">Lists</h2>
+        <div class="list__container">
+          <div class="list__blok">
+            <h3>Unordered list</h3>
+            <p>
+              The &lt;ul&gt; tag is used to create an unordered list. Combine it
+              with the &lt;li&gt; tag to define the list items within the unordered
+              list.
+            </p>
             <ul>
-              <li>Dark orange</li>
-              <li>Light orange</li>
+              <li>Shark</li>
+              <li>Jellyfish</li>
+              <li>
+                Fish
+                <ul>
+                  <li>Anemonefish</li>
+                  <li>Whale</li>
+                </ul>
+              </li>
+              <li>Porcupinefish</li>
             </ul>
-          </li>
-          <li>Pink</li>
-        </ul>
-        <h3>Ordered list</h3>
-        <p>
-          The &lt;ol&gt; tag is used to create an ordered list. Combine it with
-          the &lt;li&gt; tag to define the list items within the ordered list.
-        </p>
-        <ol>
-          <li>Red</li>
-          <li>Yellow</li>
-          <li>
-            Orange
+          </div>
+          <div class="list__blok">
+            <h3>Ordered list</h3>
+            <p>
+              The &lt;ol&gt; tag is used to create an ordered list. Combine it with
+              the &lt;li&gt; tag to define the list items within the ordered list.
+            </p>
             <ol>
-              <li>Dark orange</li>
-              <li>Light orange</li>
+              <li>Whale</li>
+              <li>Shark</li>
+              <li>
+                Fish
+                <ol>
+                  <li>Anemonefish</li>
+                  <li>Porcupinefish</li>
+                </ol>
+              </li>
+              <li>Jellyfish</li>
             </ol>
-          </li>
-          <li>Pink</li>
-        </ol>
-      </div>
-      <div class="gallery">
-        <h2 id="gallery">Gallery</h2>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <h2 id="gallery" class="heading-of-capitol">Gallery</h2>
         <h3>Flexbox gallery</h3>
         <div class="flexbox__img">
           <figure>
@@ -142,43 +150,62 @@
             <img src="./img/turquoise4.jpg" alt="Turquoise" />
           </figure>
         </div>
-      </div>
-      <div class="buttons">
-        <h2 id="buttons">Buttons</h2>
+      </section>
+      <section class="buttons">
+        <h2 id="buttons" class="heading-of-capitol">Buttons</h2>
         <p>Button is created by tag &lt;button&gt;.</p>
         <button class="button1">Button 1</button>
         <button class="button2">Button 2</button>
-      </div>
-      <div class="table">
-        <h2 id="table">Table</h2>
+      </section>
+      <section class="table">
+        <h2 id="table" class="heading-of-capitol">Table</h2>
         <table>
           <thead>
-            <caption>
-              Table example
+            <caption class="table__caption">
+              Oceans
             </caption>
             <tr class="tr1">
-              <th>Color</th>
-              <td>Example</td>
-              <td>Mix</td>
+              <th>Ocean</th>
+              <td>Area</td>
+              <td>Average depth</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th>Purple</th>
-              <td class="purple"></td>
-              <td>blue & red</td>
+              <th>the Atlantic Ocean</th>
+              <td>106 500 000 km²</td>
+              <td>3 646 m</td>
             </tr>
             <tr>
-              <th>Green</th>
-              <td class="green"></td>
-              <td>blue & yellow</td>
+              <th>the Pacific Ocean</th>
+              <td>165 200 000 km²</td>
+              <td>4 280 m</td>
+            </tr>
+            <tr>
+              <th>the Southern Ocean</th>
+              <td>20 330 000 km²</td>
+              <td>3 200 m</td>
             </tr>
           </tbody>
         </table>
-      </div>
-      <div class="quotes">
-        <h2 id="quotes">Quotes</h2>
-      </div>
+      </section>
+      <section class="quotes">
+        <h2 id="quotes" class="heading-of-capitol">Quotes</h2>
+        <p>The HTML &lt;blockquote&gt; element defines a section that is quoted from another source.</p
+          >
+          <p>The &lt;q&gt; tag defines a short quotation.</p>
+          <h3>Blockquote</h3>
+          <div class="quotes__blockquote">
+            <blockquote>
+            <q>To live is the rarest thing in the world. Most people exist, that is all.</q>
+          </blockquote>
+            <p>~ Oscar Wilde ~</p>
+          </div>
+          <h3>Q tag</h3>
+          <div class="quotes__blockquote">
+            <p><b>Henry Van Dyke once said:</b> <q>Time is too slow for those who wait, too swift for those who fear, too long for those who grieve, too short for those who rejoice, but for those who love, time is eternity.</q></p>
+          </div>
+      </section>
     </main>
     <footer>
       <p>Created by Karolína Fučíková</p>
