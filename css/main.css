@@ -16,11 +16,19 @@ a {
     text-decoration: none;
 }
 
-section{
+section {
     display: block;
     padding: 1em;
     margin: 0 auto;
     max-width: 1100px;
+}
+
+h6 {
+    margin: 0;
+}
+
+section:first-of-type {
+    padding-bottom: 0;
 }
 
 ::selection {
@@ -28,11 +36,13 @@ section{
     color: #ffffff;
 }
 
+/* HEADER */
+
 .header {
     background-color: var(--turquoise);
 }
 
-.header__menu li:hover{
+.header__menu li:hover {
     text-decoration: solid;
     color: black;
     text-decoration: underline;
@@ -40,7 +50,7 @@ section{
 
 .header__container {
     display: flex;
-    
+
     justify-content: space-between;
     padding: 1em;
     align-items: center;
@@ -80,6 +90,14 @@ section{
     max-width: 1100px;
 }
 
+/* MAIN */
+
+.main {
+    background-color: #ccffff;
+}
+
+/* HEADINGS */
+
 .heading-of-capitol {
     color: var(--turquoise);
 }
@@ -94,17 +112,27 @@ section{
     font-weight: bold;
 }
 
-.list__container{
+/* TEXTS */
+
+.turquoise {
+    color: var(--darkturquoise);
+}
+
+/* LISTS */
+
+.list__container {
     display: flex;
     justify-content: space-around;
 }
 
-.list__blok{
+.list__blok {
     max-width: 300px;
     border: 4px solid var(--turquoise);
     padding: 2em;
     border-radius: 50px;
 }
+
+/* IMAGES */
 
 .flexbox__img {
     display: flex;
@@ -146,6 +174,8 @@ figure img {
     transition: 0.3s;
 }
 
+/* BUTTONS */
+
 .button1,
 .button2:hover {
     background-color: var(--darkturquoise);
@@ -160,14 +190,14 @@ figure img {
     border-radius: 2em;
 }
 
-
+/* TABLE*/
 
 table {
     border-collapse: collapse;
 
 }
 
-.table__caption{
+.table__caption {
     margin: 1em;
     font-size: large;
     font-weight: bold;
@@ -186,32 +216,32 @@ th,
     font-weight: bolder;
 }
 
-.turquoise {
-    color: var(--darkturquoise);
-}
+/* QUOTES */
 
-.quotes__blockquote{
+.quotes__blockquote {
     border-left: 5px solid var(--darkturquoise);
     text-align: left;
     padding: 1em;
     max-width: 500px;
 }
 
-.quotes__blockquote blockquote{
+.quotes__blockquote blockquote {
     margin: 0;
 }
 
-.quotes__blockquote p{
+.quotes__blockquote p {
     margin: .5em;
     text-align: center;
 }
+
+/* FOOTER */
 
 footer,
 footer p {
     display: block;
     background-color: var(--turquoise);
-    color: white;
-    padding: 1em;
+    color: black;
+    padding: .5em;
     margin: 0;
     text-align: center;
 }
