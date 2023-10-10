@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Fučíková - Typografická knihovna</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Typographic library</title>
   </head>
   <body class="body">
     <header class="header">
       <div class="header__container">
           <p class="header__name">Code-fishing.css</p>
           <menu class="header__menu">
-            <a href="#headings"><li>Headings</li></a>
-            <a href="#text"><li>Text</li></a>
-            <a href="#lists"><li>Lists</li></a>
-            <a href="#gallery"><li>Gallery</li></a>
-            <a href="#buttons"><li>Buttons</li></a>
-            <a href="#table"><li>Table</li></a>
-            <a href="#quotes"><li>Quotes</li></a>
+            <a href="#headings"><li class="header__menu--li">Headings</li></a>
+            <a href="#text"><li class="header__menu--li">Text</li></a>
+            <a href="#lists"><li class="header__menu--li">Lists</li></a>
+            <a href="#gallery"><li class="header__menu--li">Gallery</li></a>
+            <a href="#buttons"><li class="header__menu--li">Buttons</li></a>
+            <a href="#table"><li class="header__menu--li">Table</li></a>
+            <a href="#quotes"><li class="header__menu--li">Quotes</li></a>
           </menu>
         </div>
     </header>
@@ -36,7 +37,7 @@
           content properly. Properly optimized headlines can improve a website's
           search engine visibility and increase website traffic.
         </p>
-        <p class="replacing-h1">This is #h1</p>
+        <h1>This is #h1</h1>
         <h2>This is #h2</h2>
         <h3>This is #h3</h3>
         <h4>This is #h4</h4>
@@ -123,31 +124,31 @@
         <h3>Flexbox gallery</h3>
         <div class="flexbox__img">
           <figure>
-            <img src="./img/turquoise1.jpg" alt="Turquoise" />
+            <img class="galerry__images" src="./img/turquoise1.jpg" alt="Turquoise" />
           </figure>
           <figure>
-            <img src="./img/turquoise2.jpg" alt="Turquoise" />
+            <img class="galerry__images" src="./img/turquoise2.jpg" alt="Turquoise" />
           </figure>
           <figure>
-            <img src="./img/turquoise3.jpg" alt="Turquoise" />
+            <img class="galerry__images" src="./img/turquoise3.jpg" alt="Turquoise" />
           </figure>
           <figure>
-            <img src="./img/turquoise4.jpg" alt="Turquoise" />
+            <img class="galerry__images" src="./img/turquoise4.jpg" alt="Turquoise" />
           </figure>
         </div>
         <h3>Grid gallery</h3>
         <div class="grid__img">
           <figure>
-            <img src="./img/turquoise1.jpg" alt="Turquoise" />
+            <img class="galerry__images" src="./img/turquoise1.jpg" alt="Turquoise" />
           </figure>
           <figure>
-            <img src="./img/turquoise2.jpg" alt="Turquoise" />
+            <img class="galerry__images" src="./img/turquoise2.jpg" alt="Turquoise" />
           </figure>
           <figure>
-            <img src="./img/turquoise3.jpg" alt="Turquoise" />
+            <img class="galerry__images" src="./img/turquoise3.jpg" alt="Turquoise" />
           </figure>
           <figure>
-            <img src="./img/turquoise4.jpg" alt="Turquoise" />
+            <img class="galerry__images" src="./img/turquoise4.jpg" alt="Turquoise" />
           </figure>
         </div>
       </section>
@@ -199,11 +200,11 @@
             <blockquote>
             <q>To live is the rarest thing in the world. Most people exist, that is all.</q>
           </blockquote>
-            <p>~ Oscar Wilde ~</p>
+            <p class="quotes__blockquote--p">~ Oscar Wilde ~</p>
           </div>
           <h3>Q tag</h3>
           <div class="quotes__blockquote">
-            <p><b>Henry Van Dyke once said:</b> <q>Time is too slow for those who wait, too swift for those who fear, too long for those who grieve, too short for those who rejoice, but for those who love, time is eternity.</q></p>
+            <p class="quotes__blockquote--p"><b>Henry Van Dyke once said:</b> <q>Time is too slow for those who wait, too swift for those who fear, too long for those who grieve, too short for those who rejoice, but for those who love, time is eternity.</q></p>
           </div>
       </section>
     </main>
