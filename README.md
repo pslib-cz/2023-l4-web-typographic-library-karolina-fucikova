@@ -51,8 +51,8 @@ Size of normal text is ```1em```.
 * ```<u>``` for underlined text
 * ```<mark>``` for highlited text
 * ```<sub>``` and ```<sup>``` for <sub>subscript</sub> and <sup>superscript</sup> text
-You can even use predefined classes:
-* ```<class="colored-text">``` for colored text
+* You can even use predefined classes:
+ ```<class="colored-text">``` for colored text
 ## Lists
 ### Unordered list
 ```
@@ -162,7 +162,7 @@ For one line quote text use tag `<q>`.
 fear, too long for those who grieve, too short for those who
 rejoice, but for those who love, time is eternity.</q>
 ```
-For multiple line text use `<class="quotes__blockquote">` with `<blockquote>` and `<p>`. It displays author name under the quote block. Syntax:
+For multiple line text use `<class="quotes__blockquote">` with `<blockquote>` and `<p>`. It displays author name under the quote block.
 ```
 <div class="quotes__blockquote">
   <blockquote>
