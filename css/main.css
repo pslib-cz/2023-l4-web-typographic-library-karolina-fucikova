@@ -87,20 +87,18 @@ section:first-of-type {
     border-radius: 50px;
 }
 
-/* BUTTONS */
+/* BUTTONS*/
 
 .button1,
 .button2:hover {
     background-color: var(--darkturquoise);
     border: 5px solid var(--lightturquoise);
-    border-radius: 2em;
 }
 
 .button2,
 .button1:hover {
     background-color: var(--lightturquoise);
     border: 5px solid var(--darkturquoise);
-    border-radius: 2em;
 }
 
 /* TABLE*/
