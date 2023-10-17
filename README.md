@@ -122,7 +122,7 @@ In grid gallery is used class "grid__img" in block around the pictures.
 </div>
 ```
 ## Buttons
-There is predefined button class: ```class="button"```
+There is predefined button class: ```class="button"``` and styled  ```class="button1"``` and ```class="button2"```
 ## Table
 ```
 <table>
