@@ -149,6 +149,18 @@ figure:hover .galerry__images {
     color: black;
 }
 
+.button1,
+.button2:hover {
+    background-color: var(--darkturquoise);
+    border: 5px solid var(--lightturquoise);
+}
+
+.button2,
+.button1:hover {
+    background-color: var(--lightturquoise);
+    border: 5px solid var(--darkturquoise);
+}
+
 /* TABLE */
 
 table {
